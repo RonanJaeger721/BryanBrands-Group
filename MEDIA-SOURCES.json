@@ -1,0 +1,110 @@
+[
+  {
+    "asset": "assets\\images\\logo.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\jonh.jpg",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\sculpture.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\stonee.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\founder.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\bird.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\studio.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\stone.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\sculpture-owl.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\cat.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\sculpture-form.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\stoneee.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\sculpture-garden.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\stoneeee.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\sculpture-tall.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\gallery\\images\\another.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\music-stage.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\founder-writing.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\sings.png",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\album-disc.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\IMG-20261011-WA0000.jpg",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\album-inlay.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\IMG-20261011-WA0001.jpg",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\images\\album-poster.webp",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\IMG-20261011-WA0005.jpg",
+    "kind": "client-supplied",
+    "notes": "No generated client imagery."
+  },
+  {
+    "asset": "assets\\audio\\track-1.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\1.SAHWIRA MUKURU.mp3",
+    "kind": "client-supplied audio"
+  },
+  {
+    "asset": "assets\\audio\\track-2.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\2. AMAI HWEE.mp3",
+    "kind": "client-supplied audio"
+  },
+  {
+    "asset": "assets\\audio\\track-3.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\3 .RUGARE RWAUYA.mp3",
+    "kind": "client-supplied audio"
+  },
+  {
+    "asset": "assets\\audio\\track-4.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\4. MUSIKAVANHU.mp3",
+    "kind": "client-supplied audio"
+  },
+  {
+    "asset": "assets\\audio\\track-5.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\5. SVAA MAKUDO .mp3",
+    "kind": "client-supplied audio"
+  },
+  {
+    "asset": "assets\\audio\\track-6.mp3",
+    "source": "C:\\Users\\User\\Documents\\done\\public_html\\music\\6.ROVAMBIRA.mp3",
+    "kind": "client-supplied audio"
+  }
+]

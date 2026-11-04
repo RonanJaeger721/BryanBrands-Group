@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve('dist');const routes=JSON.parse(fs.readFileSync('dist/routes.json'));let links=0;const errors=[];
+for(const route of routes){const file=path.join(root,route,'index.html');const html=fs.readFileSync(file,'utf8');if((html.match(/<h1[> ]/g)||[]).length!==1)errors.push('H1 '+route);for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const u=m[1];if(!u.startsWith('/'))continue;const clean=decodeURIComponent(u.split(/[?#]/)[0]);let p=path.join(root,clean);if(fs.existsSync(p)&&fs.statSync(p).isDirectory())p=path.join(p,'index.html');if(!fs.existsSync(p))errors.push(route+' => '+u);links++}}
+if(errors.length){console.error(errors);process.exit(1)}console.log('Verified '+routes.length+' pages and '+links+' internal asset/link references.');
