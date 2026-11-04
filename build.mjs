@@ -29,4 +29,9 @@ write('/privacy/','Privacy & Website Information','How this website handles enqu
 write('/404/','Page Not Found','Return to BrynBrands Group.',`${pageIntro('404 / PAGE NOT FOUND','Let’s find<br><em>your way back.</em>','Explore the group, gallery or music.')}<div class="section">${link('/','Return home','button')}${link('/brands/','Explore the brands')}</div>`);
 fs.copyFileSync('dist/404/index.html','dist/404.html');
 fs.writeFileSync('dist/routes.json',JSON.stringify(routes));
+const origin=(process.env.SITE_URL || 'https://brynbrands-group.vercel.app').replace(/\/$/,'');
+fs.writeFileSync('dist/robots.txt',`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
+fs.writeFileSync('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.filter(r=>r!='/404/').map(r=>`<url><loc>${origin}${r}</loc></url>`).join('')}</urlset>`);
+for(const route of routes){const file=path.join(out,route,'index.html');let html=fs.readFileSync(file,'utf8');html=html.replace('</head>',`<link rel="canonical" href="${origin}${route}"><meta property="og:url" content="${origin}${route}"></head>`).replace('content="/assets/images/founder.webp"',`content="${origin}/assets/images/founder.webp"`);fs.writeFileSync(file,html)}
+fs.copyFileSync('dist/404/index.html','dist/404.html');
 console.log('Built '+routes.length+' real pages into dist/');
